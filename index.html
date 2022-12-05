@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        *{
+            margin: 0; 
+            padding: 0;
+        }
+        .pageBackground {
+            background-color: aliceblue;
+            color: aliceblue;
+            height: 100vh;
+
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .calculator {
+            background-color: rgba(0, 0, 0, 0.946);
+
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 15px;
+            padding: 15px;
+            
+            position: absolute;
+            text-align: center;
+        }
+
+        .buttonNumber {
+            background-color: rgba(104, 104, 104, 0.443);
+            color: azure;
+
+            width: 50px;
+            height: 50px;
+            margin: 3px;
+            border-radius: 100px;
+            font-size: 25px;
+            
+            cursor: pointer;
+        } 
+
+        .buttonSymbols {
+            background-color: rgba(104, 104, 104, 0.443);
+            color: rgba(219, 137, 69, 0.781);
+
+            width: 50px;
+            height: 50px;
+            margin: 3px;
+            border-radius: 100px;
+            font-size: 25px;
+            
+            cursor: pointer;
+        } 
+
+        .buttonNumber:hover {
+            background-color:  rgb(27, 27, 27);
+        }
+
+        .buttonSymbols:hover {
+            background-color:  rgb(27, 27, 27);
+        }
+
+        #result {
+            background-color: aliceblue;
+            color: black;
+
+            width: 220x;
+            height: 40px;
+            margin: 5px;
+            border-radius: 10px;
+            font-size: 25px;
+            padding: 5px;
+
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="fundo">
+        <h1>Calculator</h1>
+        <div class="calculator">
+            <h2>Calculator</h2>
+            <p id="result"></p>
+            <table>
+                                
+                <tr>
+                    <td><button class="buttonSymbols" onclick="clean()"> AC </button></td>
+                    <td><button class="buttonSymbols" onclick="back()"> ← </button></td>
+                    <td><button class="buttonSymbols" onclick="insert('%')"> % </button></td>
+                    <td><button class="buttonSymbols" onclick="insert('/')"> / </button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="buttonNumber" onclick="insert('7')"> 7 </button></td>
+                    <td><button class="buttonNumber" onclick="insert('8')"> 8 </button></td>
+                    <td><button class="buttonNumber" onclick="insert('9')"> 9 </button></td>
+                    <td><button class="buttonSymbols" onclick="insert('*')"> * </button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="buttonNumber" onclick="insert('4')"> 4 </button></td>
+                    <td><button class="buttonNumber" onclick="insert('5')"> 5 </button></td>
+                    <td><button class="buttonNumber" onclick="insert('6')"> 6 </button></td>
+                    <td><button class="buttonSymbols" onclick="insert('-')"> - </button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="buttonNumber" onclick="insert('1')"> 1 </button></td>
+                    <td><button class="buttonNumber" onclick="insert('2')"> 2 </button></td>
+                    <td><button class="buttonNumber" onclick="insert('3')"> 3 </button></td>
+                    <td><button class="buttonSymbols" onclick="insert('+')"> + </button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="buttonSymbols" onclick="insert(',')"> , </button></td>
+                    <td><button class="buttonNumber" onclick="insert('0')"> 0 </button></td>
+                    <td><button class="buttonSymbols" onclick="insert('.')"> . </button></td>
+                    <td><button class="buttonSymbols" onclick="calculation()"> = </button></td>
+                </tr>
+           
+            </table>
+        </div>
+    </div>
+
+    <script>
+
+        function insert(num) {
+            var number = document.getElementById('result').innerHTML;
+            document.getElementById('result').innerHTML = number + num;
+        }
+
+        function clean() {
+            document.getElementById('result').innerHTML = "";
+        }
+
+        function back() {
+            var result = document.getElementById('result').innerHTML;
+            document.getElementById('result').innerHTML = result.substring(0, result.length -1)
+        }
+ 
+
+    </script>
+</body>
+</html>
