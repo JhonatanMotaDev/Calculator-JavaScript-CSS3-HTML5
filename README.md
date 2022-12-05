@@ -17,20 +17,11 @@ since now, i'm sending hugs,
 
 - Jhonatan Mota
 
-2nd phase - (dd/mm/yyyy - dd/mm/yyyy)
-
 ##
-
-3rd phase - (dd/mm/yyyy - dd/mm/yyyy)
-
+2nd Phase - (coming soon...)
 ##
-
-4th phase - (dd/mm/yyyy - dd/mm/yyyy)
-
+3rd Phase - (coming soon...)
 ##
-
-5th phase - (dd/mm/yyyy - dd/mm/yyyy)
-
+4th Phase - (coming soon...)
 ##
-
-6th phase - (dd/mm/yyyy - dd/mm/yyyy)
+5th Phase - (coming soon...)
