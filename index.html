@@ -121,7 +121,7 @@
                     <td><button class="buttonSymbols" onclick="insert(',')"> , </button></td>
                     <td><button class="buttonNumber" onclick="insert('0')"> 0 </button></td>
                     <td><button class="buttonSymbols" onclick="insert('.')"> . </button></td>
-                    <td><button class="buttonSymbols" onclick="calculation()"> = </button></td>
+                    <td><button class="buttonSymbols" onclick="calculate()"> = </button></td>
                 </tr>
            
             </table>
@@ -136,7 +136,7 @@
         }
 
         function clean() {
-            document.getElementById('result').innerHTML = "";
+            document.getElementById('result').innerHTML = ""; 
         }
 
         function back() {
@@ -144,6 +144,12 @@
             document.getElementById('result').innerHTML = result.substring(0, result.length -1)
         }
  
+        function calculate(){
+            var result = document.getElementById('result').innerHTML;
+            if(result) {
+                document.getElementById('result').innerHTML = eval(result);
+            }
+        }
 
     </script>
 </body>
