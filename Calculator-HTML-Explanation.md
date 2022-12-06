@@ -11,8 +11,6 @@ Is a lot cool study front-end, is a new universe of possibilities, is really fun
 The math is the most important part in computation! every calculation that your computer can do, is only possible through the math use!<br>
 after the initial explanation, i'm put the phases of the project below, and as the days go by, i'm gonna refresh the project phases.
 
-##
-
 <h2>2nd Phase - (06/12/2022 - 07/12/2022<br></h2>
 production process , consolidation of acquired knowledge & finish of the project...<br>
 finally finished my first HTML project, I'm very happy to be starting this journey on a long road in the programmation world! I hope this is the first of many projects! that all involve fun, learning, and above all a positive impact on other people's lives, either directly or indirectly, this project was divided into two parts, the first: (learning process, and consolidation of acquired knowledge), and the second phase: (implementation, testing, and finally UI customization),
