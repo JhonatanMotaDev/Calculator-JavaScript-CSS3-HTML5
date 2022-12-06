@@ -21,3 +21,21 @@ this first step towards a great journey in this new universe of programming is e
 See y'all in the space! sending hugs ❤️‍🔥
 
 — Jhonatan Mota Dev...
+
+HTML Calculator
+This project is about a simple calculator, maked using HTML5, CSS3 & JavaScript !
+
+Author
+@jhonatanmotadev
+Funcionalidades
+Preview in real time
+Multiplataform
+learning Involved
+Visual Code Studio basic use
+Basic creations using HTML5, CSS3 & JavaScript! How to manipulate elements using HTML5
+
+Screenshots
+xxxxxxxxxx
+
+HTML Calculator
+This project is about a simple calculator, maked using HTML5, CSS3 & JavaScript !
